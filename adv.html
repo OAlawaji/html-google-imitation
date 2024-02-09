@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advanced search</title>
+</head>
+<body>
+    <button class="top-right-buttons"><a href="index.html"> Return to main menu</a></button>
+    <div class="search-bar">
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <label for="all-words">Find pages with...</label>
+            <input type="text" id="all-words" name="as_q" placeholder="all these words" />
+            <br>
+            <label for="exact-phrase">Find pages with...</label>
+            <input type="text" id="exact-phrase" name="as_epq" placeholder="this exact word or phrase" />
+            <br>
+            <label for="any-words">Find pages with...</label>
+            <input type="text" id="any-words" name="as_oq" placeholder="any of these words" />
+            <br>
+            <label for="none-words">Find pages with...</label>
+            <input type="text" id="none-words" name="as_eq" placeholder="none of these words" />
+            <br>
+            <input type="submit" value="Search" />
+          </form>
+    
+    </div>
+</body>
+</html>

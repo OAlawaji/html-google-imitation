@@ -1,0 +1,19 @@
+.top-right-buttons {
+    position: absolute;
+    top: 10px; /* adjust the top position according to your needs */
+    right: 10px;
+  }
+  .search-bar {
+      position:fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+  }
+.google-button{
+    position:fixed;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    background-color: green;
+}
